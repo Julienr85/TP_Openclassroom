@@ -11,25 +11,7 @@
   </div><!--/row-->
     <hr>
 <form name="ajout_vm" id="ajout_vm" action="ajout_vm_recup_donne.php" method="post">
-  <div class="row">
-    <p class="lead">Provider</p>
-      <div class="col-sm-4 col-sm-offset-0">
-        <div class="radio">
-          <label><input type="radio" name="providChoice" value="VirtualBox" required>VirtualBox</label>
-          </div>
-          <div class="radio">
-          <label><input type="radio" name="providChoice" value="VMWare Fusion">VMWare Fusion</label>
-          </div>
-          <div class="radio">
-          <label><input type="radio" name="providChoice" value="Parallels Desktop">Parallels Desktop</label>
-          </div>
-          <div class="radio">
-          <label><input type="radio" name="providChoice" value="VMWare Workstation">VMWare Workstation</label>
-          </div>
-      </div><!--/col-->
-  </div><!--/row-->
-  <hr>
-  <!--Distro-->
+
   <div class="row">
     <p class="lead">Distro</p>
       <div class="col-sm-4 col-sm-offset-0">
